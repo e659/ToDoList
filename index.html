@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>toDoList</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Todo App</header>
+        <div class="inputField">
+            <input id="getData" type="text" placeholder="Add your new todo">
+            <button id="addBtn"><i class="fas fa-plus"></i></button>
+            <button id="addBtn1"><i class="fas fa-pen"></i></button>
+        </div>
+        <ul id="todoList">
+            <!-- data are comes from local storage -->
+        </ul>
+        <div class="footer">
+            <span>You have <span id="pendingTasks"></span> pending tasks</span>
+            <button id="clearBtn">Clear All</button>
+        </div>
+    </div>
+
+
+    <!-- js files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
